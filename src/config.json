@@ -1,0 +1,50 @@
+{
+    "IS" : {
+        "enabled": true,
+        "clientID": "EtKG7RgMr9Q_TFmWOxrdan1toVIa",
+        "clientSecret": "D1fOIby1fpQJdDnGEYe57zACi1Ya",
+        "managementClientId": "pIBHVIOlNceHaP4fv7nyAYfXlsYa",
+        "managementClientSecret": "LdRf8k1oxHYkMC51b7fBwa1GE8sa",
+        "baseUrl": "https://api.asgardeo.io/t/raminduorg",
+        "signInRedirectURL": "http://localhost:3001/admin",
+        "signOutRedirectURL": "http://localhost:3001/admin",
+        "scope": ["openid","profile", "groups", "default"],
+        "tokenEndpoint": "https://localhost:9444/oauth2/token",
+        "authEndpoint" : "https://localhost:9444/oauth2/authorize",
+        "endpointURL": "https://localhost:8245/ecommerceapi/1.0.0",
+        "logoutEndpointURL": "https://localhost:9444/oidc/logout",
+        "scopeURI": "groups",
+        "scopeAdmin" : "apimseller",
+        "scopeCustomer" : "customer",
+        "address": "address",
+        "country": "country",
+        "groups": "groups",
+        "givenName": "given_name",
+        "family_name": "family_name",
+        "email": "email",
+        "tenantDomain": "seller.com"
+    },
+    "Auth0" : {
+        "enabled": false,
+        "clientID": "54m06O0DWebCarY1TznwLmA1DGEdNkpt",
+        "clientSecret": "syoKr1QR4BBOweWr1H83K5docFnjC4l_82lMqcKjWZ_2nTfvv-qzJwTMTIOMiB_S",
+        "baseUrl": "https://api.asgardeo.io/t/raminduorg",
+        "signInRedirectURL": "http://localhost:3001/admin",
+        "signOutRedirectURL": "http://localhost:3001/admin",
+        "scope": ["openid","profile", "groups", "default"],
+        "tokenEndpoint": "https://dev-2jrkm6og.us.auth0.com/oauth/token",
+        "authEndpoint" : "https://dev-2jrkm6og.us.auth0.com/authorize",
+        "endpointURL": "https://localhost:8245/ecommerceapp/0.1.0",
+        "logoutEndpointURL": "https://dev-2jrkm6og.us.auth0.com/oidc/logout",
+        "scopeURI": "scopes",
+        "scopeAdmin" : "admin",
+        "address": "address",
+        "country": "country",
+        "groups": "groups",
+        "givenName": "given_name",
+        "family_name": "family_name",
+        "email": "email"
+    }
+}
+
+
